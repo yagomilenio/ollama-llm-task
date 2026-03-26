@@ -3,18 +3,6 @@
 set -euo pipefail
 
 MODEL="${1:-llama3.2}"
-OLLAMA_HOME="${OLLAMA_HOME:-$HOME/.local/ollama}"
-mkdir -p "$OLLAMA_HOME"
-export PATH="$OLLAMA_HOME/bin:$PATH"
-
-# instalar ollama
-if command -v ollama &>/dev/null; then
-    echo "[INSTALL] Instalando Ollama en $OLLAMA_HOME..."
-else
-    echo "[INSTALL] Instalando Ollama..."
-    curl -fsSL https://ollama.com/install.sh | sh
-    echo "[INFO] Ollama instalado"
-fi
 
 # iniciar servicio
 if ! curl -sf http://localhost:11434/api/tags &>/dev/null; then
