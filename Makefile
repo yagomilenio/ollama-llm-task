@@ -12,9 +12,6 @@ help:
 setup:
 	bash setup.sh $(MODEL)
 
-root_commands:
-	bash install_ollama.sh
-
 run:
 	node app.js "$(WORD)"
 
