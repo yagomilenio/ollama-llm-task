@@ -1,0 +1,14 @@
+server:
+  api_base: "http://localhost:11434"
+  timeout: 120
+
+model:
+  name: "llama3.2"
+  max_tokens: 512
+
+retry:
+  retries: 3
+  retry_wait: 5
+
+system:
+  prompt: ""
