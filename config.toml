@@ -2,7 +2,7 @@
     deterministic = false
 
 [requirements]
-    packages = ["curl", "nodejs", "npm"]
+    packages = ["curl", "nodejs", "npm", "zstd"]
 
 [inputs]
     type = "dynamic"
