@@ -10,7 +10,7 @@ if command -v ollama &>/dev/null; then  #a pesar de que necesita accesso root se
     echo "[INSTALL] Instalando Ollama"
 else
     echo "[INSTALL] Instalando Ollama..."
-    curl -fsSL https://ollama.com/install.sh | sh
+    sh install.sh
     echo "[INFO] Ollama instalado"
 fi
 
