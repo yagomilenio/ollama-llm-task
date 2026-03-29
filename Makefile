@@ -19,3 +19,4 @@ test:
 	node app.js "Cuentame un chiste"
 
 clean:
+	@echo "Nada que limpiar"
