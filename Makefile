@@ -1,6 +1,6 @@
 MODEL  ?= llama3.2
 
-.PHONY: help setup run test
+.PHONY: help setup run test clean
 
 help:
 	@echo ""
@@ -17,3 +17,5 @@ run:
 
 test:
 	node app.js "Cuentame un chiste"
+
+clean:
