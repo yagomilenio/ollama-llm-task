@@ -7,12 +7,5 @@
 [inputs]
     type = "dynamic"
 
-[runner]
-    command    = "python run.py"
-    arg_start  = "--start"
-    arg_end    = "--end"
-    workdir    = "."
-    extra_args = ""
-
 [outputs]
     mode = "stdout"
