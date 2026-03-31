@@ -5,11 +5,14 @@
     packages = ["curl", "nodejs", "npm", "zstd"]
 
 [[download.files]]
-url  = "https://ollama.com/install.sh"
-dest = "install.sh"
+    url  = "https://ollama.com/install.sh"
+    dest = "install.sh"
 
 [inputs]
     type = "dynamic"
 
 [outputs]
     mode = "stdout"
+
+[hash]
+    exclude = ["node_modules"]
