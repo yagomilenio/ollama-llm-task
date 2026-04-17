@@ -1,5 +1,4 @@
 # ollama-llm-task
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/yagomilenio/ollama-llm-task)
 
 Tarea dinámica para la **plataforma de paralelización**. Instala Ollama, descarga un modelo y ejecuta un LLM local sobre un prompt recibido como argumento, escribiendo la respuesta por stdout.
 
